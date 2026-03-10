@@ -24,20 +24,7 @@ This project analyzes public sentiment toward multiple brands and games using Tw
 | `topic` | Brand or game the tweet is about (e.g., Google, Microsoft, FIFA) |
 | `sentiment` | Sentiment label: Positive / Negative / Neutral / Irrelevant |
 | `tweet` | Raw text of the tweet |
-
----
-
-## Project Structure
-project_root/
-│
-├── data/ # CSV datasets
-│ ├── train_twitter_sentiment.csv
-│ └── validation_twitter_sentiment.csv
-├── images/ # Folder where all plots and word clouds are saved
-├── twitter_sentiment.ipynb # Jupyter notebook with full analysis
-├── README.md # This file
-└── requirements.txt # Python dependencies
-
+| `clean_tweet` | Clean text of the tweet |
 
 ---
 
